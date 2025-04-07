@@ -1,0 +1,11 @@
+public class Exercicio19i1 {
+
+    public static void main(String[] args) {
+        
+        String frase = JOptionPane.showInputDialog("Digite uma frase a ser repedita: ");
+        int n = Integer.parseInt(JOptionPane.showInputDialog("Digite o numero de repetições: "));
+        for (int i=0; i<n;i++){
+          JOptionPane.showMessageDialog(null, frase);  
+        };
+    }
+}
