@@ -1,0 +1,22 @@
+public class Exercicio25 {
+
+    public static void main(String[] args) {
+        int qtd = 3;
+        int vetor [] = new int [qtd];
+        
+        for(int i = 0; i<qtd; i++){
+            vetor[i] = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero: "));
+        }
+        
+        int soma = 0;
+        for(int i = 0; i<qtd;i++){
+            soma = soma + vetor[i];
+        }
+        
+        double media = soma/qtd;
+        
+        System.out.print("A soma é: " + soma);
+        System.out.print("A media é: " + media);
+
+    }
+}
